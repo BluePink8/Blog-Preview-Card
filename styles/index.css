@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main-box {
+    max-width: 23rem;
+    margin: auto;
+    background-color: white;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+
+    margin-top: 13em;
+    margin-bottom: 13em;
+}
+
+.main-box:hover {
+    box-shadow: 0.7rem 0.7rem 0rem black;
+}
+
+
+.wallpaper-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+.wallpaper-img {
+    border-radius: 12px;
+    object-fit: contain;
+    margin-top: -1px;
+}
+
+.learning-header {
+    display: inline-block;
+    margin-top: 1em;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    margin-top: 1.5em;
+
+    margin-bottom: 1em;
+}
+
+.publish-date {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.desc-header {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.7em;
+    cursor: pointer;
+}
+
+.desc-header:hover{
+    color:hsl(47, 88%, 63%);
+}
+
+.desc-header:hover ~ .main-box {
+    box-shadow: 1rem 1rem;
+}
+
+.desc-p {
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 1em;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.author-figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.avatar-img {
+    width: 2rem;
+}
+.author-name {
+    font-weight: 700;
+    margin-left: 0.7em;
+}
